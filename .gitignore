@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets — never commit these
+.env
+.env.*
+!.env.example
+
+# Netlify
+.netlify/
+
+# Build output / local test artefacts
+dist/
+*.pdf
+test.pdf
+test-single.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
